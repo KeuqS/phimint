@@ -9,32 +9,32 @@
 class Phimint < Formula
   desc "Terminal AI coding agent built on phi-agent"
   homepage "https://github.com/hibuka-labs/phimint"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.0/phimint-0.4.0-darwin-aarch64.tar.gz"
-      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.0/phimint-0.4.0-darwin-aarch64.tar.gz"
-      sha256 "7a5765b51afa13e4b151283097d72f334a789b4674458eb9eae2c1b3ba24a4bc"
+      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.1/phimint-0.4.1-darwin-aarch64.tar.gz"
+      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.1/phimint-0.4.1-darwin-aarch64.tar.gz"
+      sha256 "4cf699a5b7f70ec97cd835a88db181b60bf58886bdc84a3d895964eecec93e21"
     end
     on_intel do
-      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.0/phimint-0.4.0-darwin-x86_64.tar.gz"
-      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.0/phimint-0.4.0-darwin-x86_64.tar.gz"
-      sha256 "ead3acf7cba88640c89e2af022bc69f0b5cd47979d3f7f04eaaeaee7cd54418c"
+      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.1/phimint-0.4.1-darwin-x86_64.tar.gz"
+      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.1/phimint-0.4.1-darwin-x86_64.tar.gz"
+      sha256 "651f904f24b71b0103e6d2ac5b175ef2bc1c78c39b2191d397867ca3091601f6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.0/phimint-0.4.0-linux-aarch64.tar.gz"
-      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.0/phimint-0.4.0-linux-aarch64.tar.gz"
-      sha256 "a82297f85db20f5f052fcb207ef9e69dcc1d3e76990cef86111675ce99702e71"
+      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.1/phimint-0.4.1-linux-aarch64.tar.gz"
+      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.1/phimint-0.4.1-linux-aarch64.tar.gz"
+      sha256 "7134767ae47f8a7f3b333e7c4dde264fd1ab2686749074291b6e78b4550dc2ab"
     end
     on_intel do
-      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.0/phimint-0.4.0-linux-x86_64.tar.gz"
-      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.0/phimint-0.4.0-linux-x86_64.tar.gz"
-      sha256 "ad909a934ddfb25de1b258ad6d0331e711340aac8147675bb417d00f313ba54c"
+      url "https://github.com/hibuka-labs/phimint/releases/download/v0.4.1/phimint-0.4.1-linux-x86_64.tar.gz"
+      mirror "https://gitee.com/chenkangzeng_admin/phimint/releases/download/v0.4.1/phimint-0.4.1-linux-x86_64.tar.gz"
+      sha256 "ad4e7653ac0ad4e7b340f33e420c1ab54239546c40b6fceb11577e5dc9e4c483"
     end
   end
 
