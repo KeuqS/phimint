@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.1] — 2026-10-12
+
+### Fixed
+
+- npm installs on Windows actually get a binary. The Windows platform package
+  is now `phimint-windows-x64`; the old name `phimint-win32-x64` was blocked
+  by npm's spam detection on every attempt since 0.2.0 and never published,
+  so `optionalDependencies` silently skipped it and `npm install -g phimint`
+  left no binary behind. The launcher maps npm's `win32` platform token to
+  the new package name.
+
 ## [0.4.0] — 2026-10-11
 
 ### Added

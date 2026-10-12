@@ -24,6 +24,6 @@
     "phimint-darwin-x64": "0.1.0",
     "phimint-linux-x64": "0.1.0",
     "phimint-linux-arm64": "0.1.0",
-    "phimint-win32-x64": "0.1.0"
+    "phimint-windows-x64": "0.1.0"
   }
 }

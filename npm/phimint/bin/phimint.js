@@ -9,7 +9,10 @@
 const { spawnSync } = require('child_process');
 const path = require('path');
 
-const key = `${process.platform}-${process.arch}`;
+// npm reports `process.platform === "win32"`, but the Windows package is
+// named `phimint-windows-x64` — the `phimint-win32-x64` spelling trips npm's
+// spam detection (dropper-like `win32` naming) and was never publishable.
+const key = process.platform === 'win32' ? `windows-${process.arch}` : `${process.platform}-${process.arch}`;
 const pkgName = `phimint-${key}`;
 const binName = process.platform === 'win32' ? 'phimint.exe' : 'phimint';
 
